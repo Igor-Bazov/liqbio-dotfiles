@@ -1,0 +1,20 @@
+
+export PATH="/nfs/PROBIO/linuxbrew/bin:$PATH"
+export MANPATH="/nfs/PROBIO/linuxbrew/share/man:$MANPATH"
+export INFOPATH="/nfs/PROBIO/linuxbrew/share/info:$INFOPATH"
+#path_to_miniconda_libgfortran=`ls -d /nfs/ALASCCA/miniconda2/pkgs/libgfortran*/lib | head -1`
+#export LD_LIBRARY_PATH="$path_to_miniconda_libgfortran:$LD_LIBRARY_PATH"
+
+export PATH=/nfs/PROBIO/autoseq-scripts/:$PATH
+export PATH=/nfs/PROBIO/miniconda2/bin/:$PATH
+export GATK=/nfs/PROBIO/autoseq-scripts/GenomeAnalysisTK-3.5.jar
+export MSINGSENV=/nfs/PROBIO/msings/msings-env
+export JAVA_HOME=/nfs/PROBIO/miniconda2/jre
+
+#Tools Path
+
+export PATH=/nfs/PROBIO/tools/strelka/bin:$PATH
+export PATH=/nfs/PROBIO/tools/somaticseq/somaticseq:$PATH
+export PATH=/nfs/PROBIO/tools/svaba/bin/:$PATH
+export MSINGSENV=/nfs/PROBIO/msings/msings-env
+export GRIDSS_JAR=/nfs/PROBIO/autoseq-scripts/gridss-2.7.2-gridss-jar-with-dependencies.jar

@@ -1,0 +1,7 @@
+{
+    "driver" : "{ODBC Driver 13 for SQL Server}",
+    "server" : "verdandisql",
+    "database" : "clinseq",
+    "uid" : "clinseq",
+    "password" : ""
+}
