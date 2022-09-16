@@ -1,8 +1,8 @@
-# Dotfiles for the ALASCCA projects
+# Dotfiles for the LIQBIO projects
 
 ```bash
-git clone https://github.com/clinseq/alascca-dotfiles.git /nfs/ALASCCA/alascca-dotfiles
-cd /nfs/ALASCCA/alascca-dotfiles
-. /nfs/ALASCCA/alascca-dotfiles/.bash_profile
+git clone https://github.com/ClinSeq/liqbio-dotfiles ./
+# cd 
+./.bash_profile
 bash install-prereqs.sh
 ```
